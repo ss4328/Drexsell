@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+
+<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+	
+	<title>Submit a housing request</title>
+
+	<!-- Bootstrap Core CSS -->
+<link href="dist/css/bootstrap.min.css" rel="stylesheet">
+
+
+</head>
+
+<body id="form">
+
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Brand</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
+        <li><a href="#">Link</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">One more separated link</a></li>
+          </ul>
+        </li>
+      </ul>
+      <form class="navbar-form navbar-left">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Search">
+        </div>
+        <button type="submit" class="btn btn-default">Submit</button>
+      </form>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">Link</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+
+<section id="submitform">
+<form>
+<legend>Submit a product:</legend>
+  <div class="form-group">
+    <label for="productName">Lease offered by:</label>
+    <input type="email" class="form-control" id="offerName" placeholder="Name">
+    
+  </div>
+  
+  <div class="form-group">
+    <label for="productPrice">Price:</label>
+	<div class="form-check">
+      <label class="form-check-label">
+        <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+        Check/Cash only
+      </label>
+    </div>
+    <div class="form-check">
+    <label class="form-check-label">
+        <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios2" value="option2">
+        Option 2
+      </label>
+    </div>
+    <input type="email" class="form-control" id="productPrice" placeholder="Price per month:">
+    
+  </div>
+  
+
+  <div class="form-group">
+    <label for="exampleTextarea">Property Information:</label>
+    <textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
+  </div>
+  
+  <div class="form-group">
+    <label for="productLocation">Property Location:</label>
+    <input type="location" class="form-control" id="productLocation" placeholder="Address line #1">
+	<input type="location" class="form-control" id="productLocation2" placeholder="Address line #2">
+	<input type="location" class="form-control" id="productLocation3" placeholder="Address line #3">
+	
+    
+  </div>
+  
+  
+  <div class="container">
+  <h2>Form control: checkbox</h2>	
+  <p>Choose the list of features that your property offer:</p>
+  <form>
+    <div class="checkbox">
+      <label><input type="checkbox" value="">Central Heating/Cooling</label>
+    </div>
+    <div class="checkbox">
+      <label><input type="checkbox" value="">Furnished</label>
+    </div>
+    <div class="checkbox disabled">
+      <label><input type="checkbox" value="" disabled>Option 3</label>
+    </div>
+  </form>
+  
+  </div>	
+    
+  </div>
+  
+  
+  <div class="form-group">
+    <label for="exampleInputFile">Upload Image:</label>
+    <input type="file" class="form-control-file" id="exampleInputFile" aria-describedby="fileHelp">
+    <small id="fileHelp" class="form-text text-muted">This is some placeholder block-level help text for the above input. It's a bit lighter and easily wraps to a new line.</small>
+  </div>
+  <div class="form-group">
+    <label for="productName">Contact Name:</label>
+    <input type="email" class="form-control" id="productName" placeholder="Name">
+	
+	<div class="form-group">
+    <label for="productName">Contact Number</label>
+    <input type="email" class="form-control" id="productName" placeholder="(xxx)xxx-xxxx">
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+
+</section>
+
+</body>	
+</html>
