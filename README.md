@@ -1,12 +1,14 @@
 # Drexsell
 
-• Developed an intra-university e-commerce platform with a team of four members for Drexel University
+• Intra-university e-commerce platform with a team of four members for Drexel University
 
 • Used PHP, MySQL, JavaScript and Bootstrap to create the website's backend and frontend
 
-• Used Java and Framework7 to create mobile application for Android and iOS
+• Used Android Studio to create a hybrid-mobile application for Android
 
-• Improved communication among team members for better productivity and time management
+• Used Gannt-Charts and Agile development for better productivity
+
+• Made use of messenger groups and team huddles for effective communication among the team
 
 • Website: https://www.drexsell.com
 
