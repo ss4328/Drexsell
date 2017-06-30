@@ -16,9 +16,9 @@
 
 # Team Members
 
-• Summit Singh Thakur *(Project Manager and Developer)*
+• Summit Singh Thakur *(Project Manager and Back-end Developer)*
 
-• Shivansh Suhane *(Project Architect and Developer)*
+• Shivansh Suhane *(Project Architect and Front-end Developer)*
 
 • Chirayu Prahlad *(Marketing)*
 
