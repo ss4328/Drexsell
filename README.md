@@ -8,6 +8,8 @@
 
 • Used Gannt-Charts and Agile development for better productivity
 
+• Used bitbucket and google drive for synchronization
+
 • Made use of messenger groups and team huddles for effective communication among the team
 
 • Website: https://www.drexsell.com
