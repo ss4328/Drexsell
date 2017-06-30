@@ -8,7 +8,7 @@
 
 • Used Gannt-Charts and Agile development for better productivity
 
-• Used bitbucket and google drive for synchronization
+• Used bitbucket and google drive for synchronization and Axure for prototyping
 
 • Made use of messenger groups and team huddles for effective communication among the team
 
